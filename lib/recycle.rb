@@ -16,16 +16,37 @@
 
 
 #1. Define a method `address`, that takes a hash as an argument.
+def adress = ({
+  first_recycle_bin => "E 227 St/Bronx River Pkway",
+  second_recycling_bin => "Allerton Ave & Moshulu Pkway",
+  third_recycling_bin => "Arthur Ave & 187 St",
+  fourth_recycling_bin => "895 Shore Road, Pelham Bay Park"
+})
+end 
+puts address.value 
 #This method should return the value of the address key in the hash.
 
+
 #2. Define a method called `borough` that takes a hash as an argument.
+def borough = ({
+  first_recycle_bin => "Bronx"
+  second_recycling_bin => "Bronx"
+  third_recycling_bin => "Bronx"
+  fourth_recycling_bin => "Bronx"
+})
+end 
+puts borough.value 
 # This method should return the value of the borough key in the hash.
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
+def all_keys = (
+  
+end 
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
-#4. Define a method called `all_data` that takes a hash as an argument.
+#4. Define a method called `all_data` that takes a hash as an argument. 
+def 
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
